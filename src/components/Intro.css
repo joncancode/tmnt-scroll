@@ -1,0 +1,23 @@
+.top-heading {
+    position: relative;
+    padding: 250px 0px 250px 0px;
+    color: white;
+}
+
+.top-heading h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 60px;
+    font-family: 'Spectral SC', serif;
+}
+
+.intro-text {
+    opacity: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    max-width: 60%;
+    margin-bottom: 300px;
+  }

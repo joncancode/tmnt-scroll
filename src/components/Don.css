@@ -1,0 +1,17 @@
+.don-container {
+    padding-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.don-heading, .para-text, .don {
+    flex: 1;
+    margin: 10px;
+}
+
+.don {
+    padding: 60px;
+}
+

@@ -1,0 +1,17 @@
+.leo-container {
+    padding-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.leo-heading, .para-text, .leo {
+    flex: 1;
+    margin: 10px;
+}
+
+.leo {
+    padding: 60px;
+}
+

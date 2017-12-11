@@ -1,0 +1,17 @@
+.mike-container {
+    padding-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mike-heading, .para-text, .mike {
+    flex: 1;
+    margin: 10px;
+}
+
+.mike {
+    padding: 60px;
+}
+

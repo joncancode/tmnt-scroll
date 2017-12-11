@@ -1,0 +1,17 @@
+.raph-container {
+    padding-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.raph-heading, .para-text, .raph {
+    flex: 1;
+    margin: 10px;
+}
+
+.raph {
+    padding: 60px;
+}
+
