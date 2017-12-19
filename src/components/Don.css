@@ -9,9 +9,13 @@
 .don-heading, .para-text, .don {
     flex: 1;
     margin: 10px;
+    opacity: 0;
 }
 
 .don {
     padding: 60px;
 }
 
+.transitionD {
+    padding-bottom: 20px;
+}

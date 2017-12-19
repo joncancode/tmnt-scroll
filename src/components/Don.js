@@ -8,12 +8,14 @@ class Don extends Component {
   componentDidMount() {
     var controller = new ScrollMagic.Controller();
 
-    var itemD = '.don-heading';
+    var itemD = '.transitionD';
     var tl = new TimelineLite();
-    tl.add(TweenLite.to('.App', 1, { backgroundColor: 'black' }));
-    tl.add(TweenLite.to('.App', 1.3, { backgroundColor: '#7300e6' }));
-    tl.add(TweenLite.to('.don-name', 0.3, { opacity: 1, x: 30 }));
-    tl.add(TweenLite.to('.don-name', 0.3, { opacity: 1, x: 30 }));
+
+    tl.add(TweenLite.to('.App', .8, { backgroundColor: 'black' }));
+    tl.add(TweenLite.to('.App', .8, { backgroundColor: '#7300e6' }));
+    tl.add(TweenLite.to('.para-text', 0.5, { opacity: 1, x: 20 }));
+    tl.add(TweenLite.to('.don-heading', 0.5, { opacity: 1, x: 20 }));
+    tl.add(TweenLite.to('.don', 0.5, { opacity: 1, x: 30 }));
 
     var scene1 = new ScrollMagic.Scene({ triggerElement: itemD})
       .setTween(tl)
@@ -23,10 +25,11 @@ class Don extends Component {
   render() {
     return (
       <div className="container">
+      <div className="transitionD">(Bo image)</div>
         <div className="don-container">
         <div className="don-heading">
           <h2 className="don-name">Donatello</h2>
-          <p className="don-description">The Brains</p>
+          <p className="don-description">The Brain</p>
           <p className="para-text">
             Lorem morbi nec iaculis leo, quis lobortis neque. Ut hendrerit,
             risus in dapibus euismod, nibh leo volutpat elit, vel pharetra odio

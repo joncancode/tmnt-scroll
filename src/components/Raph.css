@@ -9,9 +9,14 @@
 .raph-heading, .para-text, .raph {
     flex: 1;
     margin: 10px;
+    opacity: 0;
 }
 
 .raph {
     padding: 60px;
+}
+
+.transitionR {
+    padding-bottom: 20px;
 }
 

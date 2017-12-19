@@ -9,9 +9,13 @@
 .mike-heading, .para-text, .mike {
     flex: 1;
     margin: 10px;
+    opacity: 0;
 }
 
 .mike {
     padding: 60px;
 }
 
+.transitionM {
+    padding-bottom: 20px;
+}

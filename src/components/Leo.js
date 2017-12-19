@@ -8,12 +8,13 @@ class Leo extends Component {
   componentDidMount() {
     var controller = new ScrollMagic.Controller();
 
-    var itemL = '.leo-heading';
+    var itemL = '.transitionL';
     var tl = new TimelineLite();
-    tl.add(TweenLite.to('.App', 1, { backgroundColor: 'black' }));
-    tl.add(TweenLite.to('.App', 1.3, { backgroundColor: '#0000e6' }));
-    tl.add(TweenLite.to('.leo-name', 0.3, { opacity: 1, x: 30 }));
-    tl.add(TweenLite.to('.leo-description', 0.3, { opacity: 1, x: 30 }));
+    tl.add(TweenLite.to('.App', .8, { backgroundColor: 'black' }));
+    tl.add(TweenLite.to('.App', .8, { backgroundColor: '#0000e6' }));
+    tl.add(TweenLite.to('.para-text', 0.5, { opacity: 1, x: 20 }));
+    tl.add(TweenLite.to('.leo-heading', 0.5, { opacity: 1, x: 20 }));
+    tl.add(TweenLite.to('.leo', 0.5, { opacity: 1, x: 30 }));
 
     var scene2 = new ScrollMagic.Scene({ triggerElement: itemL })
       .setTween(tl)
@@ -23,6 +24,7 @@ class Leo extends Component {
   render() {
     return (
       <div className="container">
+      <div className="transitionL">(Katana image)</div>
         <div className="leo-container">
           <div className="leo-heading">
             <h2 className="leo-name">Leonardo</h2>

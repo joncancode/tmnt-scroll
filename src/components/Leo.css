@@ -9,9 +9,14 @@
 .leo-heading, .para-text, .leo {
     flex: 1;
     margin: 10px;
+    opacity: 0;
 }
 
 .leo {
     padding: 60px;
+}
+
+.transitionL {
+    padding-bottom: 20px;
 }
 
